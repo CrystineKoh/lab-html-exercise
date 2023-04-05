@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: Source Sans Pro;
+  }
+
+li {
+  font-size: 1.25rem;
+  font-family: Source Sans Pro;
+  color: #f4f4f4;
+}
+
+nav {
+  background-color: white;
+  font-family: Source Sans Pro;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+  margin: 0;
+}
+
+.acronym {
+  padding-left: 10px;
+}
+
+.heart {
+  
+}
+
+.top-left {
+  padding-top:5px;
+  padding-left: 15px;
+  float: left;
+  font-size: 1rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  }
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding-top: 5px;
+  margin: 0 20px 0 0;
+  font-size: 1 rem;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1 rem;
+}
+
+.header {
+  padding: 0 0 35px 0;
+  background-color: white;
+  }
+
+.header-2 {
+  margin: 0 auto;
+  background-color: beige;
+  color: black;
+  margin-top: 0px;
+  font-family: Source Sans Pro;
+  text-align: center;
+  
+ }
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading h2 {
+  font-weight: normal;
+  color: #000000;
+  padding: 9px;
+  background-color: rgba(255,204,53,.4);
+}
+
+.searchbar {
+ background-color: white;
+ padding: 0 0 0 15px;
+}
+
+.sb-input {
+  background-color: #D3D3D3;
+  width: 1100px;
+  border: 1px solid rgb(31, 82, 111);
+}
+
+.plan {
+  background-color: red;
+  color: white;
+  font-family: Source Sans Pro;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0;
+  padding: 14px 20px;
+  border: 2px solid #000000 0.2;
+  border-radius: 25px;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  float: center; 
+}
+
+.free {
+  background-color: black;
+  color: black;
+  font-family: Source Sans Pro;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0;
+  padding: 14px 20px;
+  border: 2px solid #000000 0.2;
+  border-radius: 25px;
+  float: center; 
+}
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  top: 0.5%;
+  width: 100%;
+  color: red;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: black;
+  cursor: pointer;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
